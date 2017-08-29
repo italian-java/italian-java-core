@@ -1,10 +1,10 @@
 package com.github.italianjava.core.basic
 
-import lombok.AllArgsConstructor
-
-@AllArgsConstructor
 class Floatini {
 
     Float value
 
+    Floatini(Float value) {
+        this.value = value
+    }
 }

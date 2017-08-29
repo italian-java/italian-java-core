@@ -1,10 +1,10 @@
 package com.github.italianjava.core.basic
 
-import lombok.AllArgsConstructor
-
-@AllArgsConstructor
 class Integirini {
 
     Integer value
 
+    Integirini(Integer value) {
+        this.value = value
+    }
 }
